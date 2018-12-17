@@ -1,0 +1,13 @@
+server:
+  port: 9088
+spring:
+  rabbitmq:
+    host: 140.143.237.224
+    port: 5672
+    username: root
+    password: root
+    virtual-host: /
+    connection-timeout: 10000
+    template:
+      mandatory: true
+    publisher-confirms: true
